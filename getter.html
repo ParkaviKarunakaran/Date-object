@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>JavaScript Date getter method</h1>
+    <p id="demo"></p>
+
+    <script>
+
+        //now
+        const dateNow = Date.now();
+
+        //toString
+        const toString = new Date().toString();
+
+        //toTimeString
+        const toTimeString = new Date().toTimeString();
+
+        //date
+        const date = new Date().getDate();
+
+        //day
+        const day = new Date().getDay();
+        const days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+        const result = days[day];
+
+        //year
+        const year = new Date().getFullYear();
+
+        //hours
+        const hrs = new Date().getHours();
+
+        //millisecond
+        const millisecond = new Date().getMilliseconds();
+
+        //mins
+        const mins = new Date().getMinutes();
+
+        //month
+        const month = new Date().getMonth()+1;
+
+        //second
+        const second = new Date().getSeconds();
+
+        //time
+        const time = new Date().getTime();
+
+        //UTC date
+        const UTCdate = new Date().getUTCDate();
+
+        //UTC day
+        const UTCday = new Date().getUTCDay()+1;
+
+        //UTC year
+        const UTCyear = new Date().getUTCFullYear();
+
+        //UTC hrs
+        const UTChrs = new Date().getUTCHours();
+
+        //UTC milliseconds
+        const UTCmilliseconds = new Date().getMilliseconds();
+
+        //UTC mins
+        const UTCmins = new Date().getUTCMinutes();
+
+        //UTC month
+        const UTCmonth = new Date().getUTCMonth();
+        const months = ['january', 'february','march','april','may','june','july','august','september','october','november','december'];
+        const result1 = months[UTCmonth];
+
+        //UTC second
+        const UTCsecond = new Date().getUTCSeconds();
+
+        //toUTCString
+        const toUTCString = new Date().toUTCString();
+
+        document.getElementById("demo").innerHTML = toUTCString;
+        
+    </script>
+
+</body>
+</html>

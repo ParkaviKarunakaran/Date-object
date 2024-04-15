@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>JavaScript setter method</h1>
+    <p id="demo"></p>
+
+    <script>
+
+        //date
+        const date = new Date();
+        date.setDate(19);
+
+        //year
+        const year = new Date();
+        year.setFullYear(2003);
+
+        //hrs
+        const hrs = new Date();
+        hrs.setHours(3);
+
+        //milliseconds
+        const millisecond = new Date();
+        millisecond.setMilliseconds(1000);
+
+        //mins
+        const mins = new Date();
+        mins.setMinutes(30);
+
+        //month
+        const month = new Date();
+        month.setMonth(4);
+
+        //second
+        const second = new Date();
+        second.setSeconds(500);
+
+        //time
+        const time = new Date();
+        time.setTime(1432403874583);
+
+        //UTCdate
+        const UTCdate = new Date();
+        UTCdate.setUTCDate(11);
+
+        //UTCyear
+        const UTCyear = new Date();
+        UTCyear.setUTCFullYear(1982);
+
+        //UTCdate
+        const UTChrs = new Date();
+        UTChrs.setUTCHours(1);
+
+        //UTCmillisecond
+        const UTCmillisecond = new Date();
+        UTCmillisecond.setUTCMilliseconds(11000);
+
+        //UTCmins
+        const UTCmins = new Date();
+        UTCmins.setUTCMinutes(25);
+
+        //UTCmonth
+        const UTCmonth = new Date();
+        UTCmonth.setUTCMonth(8);
+
+        //UTCsecond
+        const UTCsecond = new Date();
+        UTCsecond.setUTCSeconds(50);
+
+        //UTCtime
+        const UTCtime = new Date();
+        UTCtime.setTime(2);
+
+        document.getElementById("demo").innerHTML = UTCtime;
+
+    </script>
+
+</body>
+</html>
